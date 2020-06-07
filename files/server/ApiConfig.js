@@ -1,0 +1,47 @@
+//const apiData = {
+//    baseUrl: 'https://lolwhoa.com/',
+//    SignUp_url : 'api/apiregister',
+//    Login_url: 'api/apilogin',
+//}
+
+basURL = 'https://lolwhoa.com/api';
+export default {
+  IMAGE_URL: 'https://lolwhoa.com/storage/uploads/memes/',
+  PROFILE_URL: 'https://lolwhoa.com/uploads/users/',
+  LOGIN_URL: basURL + '/apilogin',
+  SIGIN_UP_URL: basURL + '/apiregister',
+  LOGOUT_URL: basURL + '/apilogout',
+  RESET_PASSWORD_URL: basURL + '/password/reset',
+  FORGET_PASSWORD_URL: basURL + '/password/email',
+  SOCIAL_LOGIN_URL: basURL + '/api-social-login',
+  ACCOUNT_SETTINGS_URL: basURL + '/settings/update',
+  PASSWORD_UPDATE_URL: basURL + '/password/update',
+  PROFILE_SETTINGS_URL: basURL + '/profile/update',
+  USER_DETAILS_URL: basURL + '/AuthUserDetails',
+  RECENT_NOTIFICATION_URL: basURL + '/api-recent-notifications',
+  PDATE_NOTIFY_UPDATE_UP_URL: basURL + '/api-update-NotifyStatus',
+  UPDATE_ISREAD_STATUS_URL: basURL + '/api-update-IsReadStatus',
+  ALL_NOTIFICATION_URL: basURL + '/api-all-notifications',
+  VIEW_A_SINGLE_POST_URL: basURL,
+  LIKE_POST_URL: basURL + '/api-vote-post',
+  LIKE_COMMENT_URL: basURL + '/api-like-comment',
+  DISLIKE_POST_URL: basURL + '/api-vote-post',
+  DISLIKE_COMMENT_URL: basURL + '/api-dislike-comment',
+  COMMENT_ON_POST_URL: basURL + '/api-store-comment',
+  REPLY_ON_COMMENT_URL: basURL + '/api-store-reply-comment',
+  CREATE_MEME_URL: basURL + '/api-share-meme',
+  SEARCH_MEME_URL: basURL + '/api-search',
+  CATEGORIES_URL: basURL + '/api-categories',
+  CATEGORY_POST_URL: basURL + '/api-category-post',
+  TRENDING_POST_URL: basURL + '/api-trending',
+  RECENT_MEME_URL: basURL + '/api-recentMemes',
+  HOME_URL: basURL + '/api-main-posts',
+  TAGS_URL: basURL + '/api-tag-posts',
+  INBOX_LAUGH_URL: basURL + '/api-inbox-laugh',
+  USER_PROFILE_HOME_URL: basURL + '/user-profile/',
+  USER_PROFILE_POST_URL: basURL + '/user-profile/posts',
+  USER_PROFILE_UPVOTES_URL: basURL + '/user-profile/upvotes',
+  USER_PROFILE_COMMENT_URL: basURL + '/user-profile/comments',
+}
+
+//export const {baseUrl, SignUp_url, Login_url } = apiData;
